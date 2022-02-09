@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Nav, Navbar, Image } from "react-bootstrap";
-import { MdLocalPhone } from "react-icons/md";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
+
 import logo from "../../images/logo.png";
 function Navigation() {
   return (
-    <Navbar id='mainNav' bg='light' expand='lg'>
+    <Navbar id='mainNav' bg='light' variant='dark' expand='lg'>
       <Container>
         <Navbar.Brand href='#home'>
           <Image style={{ width: 150 }} src={logo}></Image>
@@ -21,7 +23,7 @@ function Navigation() {
               className='phone mt-2 mb-5 mt-lg-auto mb-lg-auto d-flex align-items-center justify-content-center ms-lg-5 ms-md-0 px-3 px-lg-2 rounded-pill'
               href='#link'
             >
-              <MdLocalPhone className='me-1' />
+              <FontAwesomeIcon className='me-2' icon={faPhoneFlip} />
               07424605611
             </Nav.Link>
           </Nav>
