@@ -1,9 +1,35 @@
 @import "./components/navigation/navigation";
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap");
 
-html,
-body {
-  font-family: "Lora", serif;
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -16,7 +42,7 @@ body {
     width: 540px;
   }
   @media only screen and (min-width: 768px) {
-    width: 920px;
+    width: 720px;
   }
   @media only screen and (min-width: 992px) {
     width: 960px;

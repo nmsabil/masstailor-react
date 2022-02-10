@@ -1,0 +1,122 @@
+.navbar {
+  background-image: url(../../images/dark-honeycomb.png);
+  padding: 10px 10px;
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #bc9b5d;
+      font-size: 18px;
+      padding: 7px 15px;
+      border: 1px solid transparent;
+      border-radius: 50px;
+      font-weight: 300;
+      &:hover {
+        border: 1px solid #bc9b5d;
+      }
+    }
+  }
+  &_logo {
+    a {
+      border: none !important;
+      &:hover {
+        border: none;
+      }
+      img {
+        width: 150px;
+        object-fit: cover;
+      }
+    }
+  }
+  &_links {
+    ul {
+      display: flex;
+      li {
+        margin: 0px 5px;
+      }
+    }
+  }
+  &_cta {
+    a {
+      border: 1px solid #bc9b5d !important;
+      border-radius: 50px;
+      svg {
+        margin-right: 10px;
+        animation: ring 4s 0.7s ease-in-out infinite;
+      }
+      //  span {
+      //  }
+      &:hover {
+        box-shadow: 1px 1px 1px #bc9b5d;
+      }
+    }
+  }
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  5% {
+    transform: rotate(30deg);
+  }
+  10% {
+    transform: rotate(-28deg);
+  }
+  15% {
+    transform: rotate(34deg);
+  }
+  20% {
+    transform: rotate(-32deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  30% {
+    transform: rotate(-28deg);
+  }
+  35% {
+    transform: rotate(26deg);
+  }
+  40% {
+    transform: rotate(-24deg);
+  }
+  45% {
+    transform: rotate(22deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  55% {
+    transform: rotate(18deg);
+  }
+  60% {
+    transform: rotate(-16deg);
+  }
+  65% {
+    transform: rotate(14deg);
+  }
+  70% {
+    transform: rotate(-12deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-8deg);
+  }
+  85% {
+    transform: rotate(6deg);
+  }
+  90% {
+    transform: rotate(-4deg);
+  }
+  95% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-1deg);
+  }
+}
