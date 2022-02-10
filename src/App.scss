@@ -5,3 +5,26 @@ html,
 body {
   font-family: "Lora", serif;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (min-width: 450px) {
+    width: 100%;
+  }
+  @media only screen and (min-width: 576px) {
+    width: 540px;
+  }
+  @media only screen and (min-width: 768px) {
+    width: 920px;
+  }
+  @media only screen and (min-width: 992px) {
+    width: 960px;
+  }
+  @media only screen and (min-width: 1200px) {
+    width: 1140px;
+  }
+  @media only screen and (min-width: 1400px) {
+    width: 1320px;
+  }
+}
