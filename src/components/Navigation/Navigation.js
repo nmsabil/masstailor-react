@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 
 function Navigation() {
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = (e) => {
+    e.preventDefault();
+    setActive(!isActive);
+  };
+
   return (
     <div className='navbar'>
       <div className='desktop'>
@@ -39,12 +46,16 @@ function Navigation() {
               </a>
             </div>
           </div>
-          <a className='mobile-nav-button'>
+          <a
+            className={"mobile-nav-button " + (isActive ? "" : "show")}
+            href='/'
+            onClick={handleToggle}
+          >
             <span></span>
           </a>
         </div>
       </div>
-      <div className='navbar mobile'>
+      <div className={"navbar mobile " + (isActive ? "" : "show")}>
         <nav>
           <ul>
             <li>
