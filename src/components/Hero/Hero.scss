@@ -1,0 +1,13 @@
+.hero-container {
+  height: 100vh;
+  .slick-slider {
+    .slick-slide {
+      .slide {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
