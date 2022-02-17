@@ -3,9 +3,72 @@
   .slick-slider {
     .slick-slide {
       .slide {
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          background: rgba(0, 0, 0, 0.7);
+          top: 0;
+          right: 0;
+          bottom: 0px;
+          left: 0;
+        }
         img {
+          height: 87vh;
           width: 100%;
           object-fit: cover;
+          object-position: top;
+          margin-top: 9vh;
+          position: relative;
+
+          @media only screen and (max-width: 758px) {
+            margin-top: 4vh;
+            height: 92vh;
+          }
+        }
+        .content {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+          flex-direction: column;
+          color: #b8b897;
+          h1 {
+            margin: 10px 0px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: 100;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            font-size: 100px;
+            line-height: 100px;
+            text-shadow: #b8b897 0.1px 0.1px 50px;
+            span {
+              color: #fff;
+            }
+          }
+          h2 {
+            margin-top: 10px;
+            letter-spacing: 2px;
+            font-weight: 300;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            line-height: 22px;
+            text-shadow: #fff 0.1px 0.1px 50px;
+          }
+          .location {
+            font-weight: 100;
+            margin-bottom: 0;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 20px;
+            font-size: 40px;
+            line-height: 40px;
+          }
         }
       }
     }

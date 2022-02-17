@@ -1,5 +1,17 @@
 .navbar {
+  @media only screen and (min-width: 768px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+  }
   .desktop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
     .mobile-nav-button {
       height: 28px;
       width: 20px;

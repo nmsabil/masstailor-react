@@ -17,6 +17,15 @@ function Hero() {
     <div className='hero-container'>
       <Slider {...settings}>
         <div className='slide'>
+          <div className='content'>
+            <h3 className='location'>London Southall</h3>
+            <h1>
+              -Masss <span>Tailor</span>-
+            </h1>
+            <h2>
+              MADE TO MEASURE | ALL TYPES OF STITCHING | ALTERATIONS AND REPAIRS
+            </h2>
+          </div>
           <img src={img1} alt='' />
         </div>
         <div className='slide'>
