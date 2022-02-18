@@ -1,6 +1,41 @@
 .hero-container {
   height: 100vh;
   .slick-slider {
+    .slick-prev,
+    .slick-next {
+      color: #b8b897;
+      z-index: 1;
+      height: 40px;
+      width: 40px;
+      opacity: 0.3;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    .slick-prev {
+      left: 20px;
+    }
+    .slick-next {
+      right: 20px;
+    }
+    .slick-dots {
+      display: flex !important;
+      height: 44px;
+      bottom: -35px;
+      align-items: center;
+      justify-content: center;
+      background-color: #141414;
+      li {
+        button {
+          &:before {
+            color: #b8b897;
+            &.active {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
     .slick-slide {
       .slide {
         position: relative;
