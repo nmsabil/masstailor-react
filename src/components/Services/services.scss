@@ -1,0 +1,32 @@
+.services {
+  height: 100vh;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  text-align: center;
+  background-color: black;
+  color: #b8b897;
+
+  svg text {
+    margin-bottom: -50px;
+    letter-spacing: 10px;
+    stroke: white;
+    font-size: 80px;
+    font-weight: 400;
+    stroke-width: 1;
+    animation: textAnimate 5s infinite alternate;
+  }
+
+  @keyframes textAnimate {
+    0% {
+      stroke-dasharray: 0 50%;
+      stroke-dashoffset: 20%;
+      fill: hsl(60, 19%, 66%);
+    }
+
+    100% {
+      stroke-dasharray: 50% 0;
+      stroke-dashoffstet: -20%;
+      fill: hsla(189, 68%, 75%, 0%);
+    }
+  }
+}
