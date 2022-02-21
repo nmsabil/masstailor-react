@@ -11,6 +11,9 @@
       &:hover {
         opacity: 0.6;
       }
+      @media only screen and (max-width: 778px) {
+        display: none !important;
+      }
     }
     .slick-prev {
       left: 20px;
@@ -62,6 +65,7 @@
           }
         }
         .content {
+          text-align: center;
           position: absolute;
           height: 100%;
           width: 100%;
@@ -77,15 +81,25 @@
             text-align: center;
             font-weight: 100;
             text-transform: uppercase;
-            letter-spacing: 20px;
-            font-size: 100px;
+            letter-spacing: 15px;
+            font-size: 90px;
             line-height: 100px;
             text-shadow: #b8b897 0.1px 0.1px 50px;
+            @media only screen and (max-width: 1200px) {
+              font-size: 30px;
+              line-height: 30px;
+            }
+            @media only screen and (max-width: 778px) {
+              letter-spacing: 10px;
+              font-size: 25px;
+              line-height: normal;
+            }
             span {
               color: #fff;
             }
           }
           h2 {
+            padding: 0px 15px;
             margin-top: 10px;
             letter-spacing: 2px;
             font-weight: 300;
@@ -94,6 +108,9 @@
             font-size: 16px;
             line-height: 22px;
             text-shadow: #fff 0.1px 0.1px 50px;
+            @media only screen and (max-width: 778px) {
+              font-size: 12px;
+            }
           }
           .location {
             font-weight: 100;
@@ -103,6 +120,14 @@
             letter-spacing: 20px;
             font-size: 40px;
             line-height: 40px;
+            @media only screen and (max-width: 1200px) {
+              font-size: 20px;
+              letter-spacing: 10px;
+            }
+            @media only screen and (max-width: 778px) {
+              font-size: 16px;
+              line-height: 20px;
+            }
           }
         }
       }
