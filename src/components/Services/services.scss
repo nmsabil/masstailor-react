@@ -1,19 +1,44 @@
 .services {
-  height: 100vh;
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
   background-color: black;
   color: #b8b897;
 
-  svg text {
-    margin-bottom: -50px;
-    letter-spacing: 10px;
-    stroke: white;
-    font-size: 80px;
-    font-weight: 400;
-    stroke-width: 1;
-    animation: textAnimate 5s infinite alternate;
+  svg {
+    margin-bottom: -60px;
+    text {
+      letter-spacing: 10px;
+      stroke: white;
+      font-size: 80px;
+      font-weight: 400;
+      stroke-width: 1;
+      animation: textAnimate 5s infinite alternate;
+    }
+  }
+  h3 {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    span {
+      color: #fff;
+    }
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #dfdfdf;
+    font-family: "Raleway", sans-serif;
+  }
+  .service-card {
+    display: flex;
+    justify-content: space-evenly;
   }
 
   @keyframes textAnimate {

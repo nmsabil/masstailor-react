@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../card/Card";
 
 function Services() {
   return (
@@ -11,14 +12,23 @@ function Services() {
             </text>
           </svg>
         </div>
-        <h3>We are here for you</h3>
+        <h3>
+          We are here <span>for you</span>
+        </h3>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          If you are looking for exceptional tailoring service in London, then
+          look no further!
         </p>
+        <div className='service-card'>
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <div className='service-card'>
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   );
