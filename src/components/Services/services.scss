@@ -4,7 +4,9 @@
   text-align: center;
   background-color: black;
   color: #b8b897;
-
+  @media only screen and (max-width: 450px) {
+    padding-top: 40px;
+  }
   svg {
     margin-bottom: -60px;
     text {
@@ -14,6 +16,9 @@
       font-weight: 400;
       stroke-width: 1;
       animation: textAnimate 5s infinite alternate;
+      @media only screen and (max-width: 450px) {
+        font-size: 60px;
+      }
     }
   }
   h3 {
@@ -37,8 +42,16 @@
     font-family: "Raleway", sans-serif;
   }
   .service-card {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 50px;
+    @media only screen and (max-width: 992px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   @keyframes textAnimate {
