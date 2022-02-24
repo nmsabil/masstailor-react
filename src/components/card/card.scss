@@ -34,7 +34,7 @@ $desktop: 1024px;
     }
 
     .card__image {
-      transform: scale(1.2) rotate(-3deg);
+      transform: scale(1.2);
     }
 
     .card__thumb {
@@ -100,7 +100,7 @@ $desktop: 1024px;
     transition: 0.3s;
 
     @include breakpoint(desktop) {
-      top: calc(100% - 88px);
+      top: calc(100% - 42px);
       transform: unset;
     }
   }
@@ -122,8 +122,8 @@ $desktop: 1024px;
   }
 
   &__snippet {
-    display: -webkit-box;
-    max-height: 150px;
+    display: block;
+    height: auto;
     margin: 20px 0;
     overflow: hidden;
     font-family: "Roboto", sans-serif;
@@ -135,7 +135,7 @@ $desktop: 1024px;
     -webkit-box-orient: vertical;
 
     @include breakpoint(desktop) {
-      margin: 60px 0;
+      margin: 20px 0;
     }
   }
 
