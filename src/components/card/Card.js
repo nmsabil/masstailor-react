@@ -8,9 +8,9 @@ function Card(props) {
         <figcaption class='card__caption'>
           <h2 class='card__title'>{props.title}</h2>
           <p class='card__snippet'>{props.description}</p>
-          <a href='/' class='card__button'>
+          {/* <a href='/' class='card__button'>
             Read more
-          </a>
+          </a> */}
         </figcaption>
       </figure>
     </div>
