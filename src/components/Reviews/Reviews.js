@@ -1,4 +1,5 @@
 import React from "react";
+import { ElfsightWidget } from "react-elfsight-widget";
 
 function Reviews() {
   return (
@@ -14,11 +15,13 @@ function Reviews() {
         <h3>
           What Our <span>customers say</span>
         </h3>
-        <p className='subtitle'>
+        {/* <p className='subtitle'>
           If you are looking for exceptional tailoring service in London, then
           look no further!
-        </p>
-        <div className='service-card'></div>
+        </p> */}
+        <div className=''>
+          <ElfsightWidget widgetID='9d7e7745-df8f-4488-8ee9-971bcbd8fb76' />
+        </div>
       </div>
     </div>
   );
