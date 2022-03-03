@@ -52,16 +52,16 @@
           left: 0;
         }
         img {
-          height: 87vh;
+          height: 89vh;
           width: 100%;
           object-fit: cover;
           object-position: top;
-          margin-top: 9vh;
+          margin-top: 8vh;
           position: relative;
 
           @media only screen and (max-width: 758px) {
             margin-top: 4vh;
-            height: 92vh;
+            height: 93vh;
           }
         }
         .content {

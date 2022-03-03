@@ -1,5 +1,4 @@
 import React from "react";
-import { ElfsightWidget } from "react-elfsight-widget";
 
 function Reviews() {
   return (
@@ -19,9 +18,7 @@ function Reviews() {
           If you are looking for exceptional tailoring service in London, then
           look no further!
         </p> */}
-        <div className=''>
-          <ElfsightWidget widgetID='9d7e7745-df8f-4488-8ee9-971bcbd8fb76' />
-        </div>
+        <div className=''></div>
       </div>
     </div>
   );
