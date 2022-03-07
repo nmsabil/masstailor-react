@@ -18,7 +18,20 @@ function Reviews() {
           If you are looking for exceptional tailoring service in London, then
           look no further!
         </p> */}
-        <div className=''></div>
+        <div className=''>
+          <div
+      class="tagembed-container"
+      style="width: 1000px; height: 1000px; overflow: auto"
+    >
+      <div
+        class="tagembed-socialwall"
+        data-wall-id="29609"
+        view-url="https://widget.tagembed.com/29609?view"
+      ></div>
+      <script
+        src="//widget.tagembed.com/embed.min.js"
+        type="text/javascript"
+      ></script></div>
       </div>
     </div>
   );
