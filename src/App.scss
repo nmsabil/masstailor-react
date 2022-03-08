@@ -57,9 +57,48 @@ img {
     width: 1320px;
   }
 }
+.header {
+  svg {
+    margin-bottom: -60px;
+    text {
+      letter-spacing: 10px;
+      stroke: white;
+      font-size: 80px;
+      font-weight: 400;
+      stroke-width: 1;
+      animation: textAnimate 5s infinite alternate;
+      @media only screen and (max-width: 450px) {
+        font-size: 60px;
+      }
+    }
+  }
+  h3 {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+    span {
+      color: #fff;
+    }
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #dfdfdf;
+    font-family: "Raleway", sans-serif;
+  }
+}
+
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 @import "./components/navigation/navigation";
 @import "./components/hero/hero";
 @import "./components/services/services";
 @import "./components/card/card";
+@import "./components/reviews/reviews";
+@import "./components/reviewCard/reviewCard";

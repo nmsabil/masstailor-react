@@ -1,0 +1,25 @@
+.review {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 50px;
+  @media only screen and (max-width: 992px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+.reviews {
+  padding-top: 0px;
+  padding-bottom: 75px;
+  text-align: center;
+  background-color: black;
+  color: #b8b897;
+  @media only screen and (max-width: 450px) {
+    padding-top: 40px;
+  }
+  h3 {
+    margin-bottom: 40px;
+  }
+}

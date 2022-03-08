@@ -2,13 +2,13 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div class='card'>
-      <figure class='card__thumb'>
-        <img src={props.src} alt={props.alt} class='card__image' />
-        <figcaption class='card__caption'>
-          <h2 class='card__title'>{props.title}</h2>
-          <p class='card__snippet'>{props.description}</p>
-          {/* <a href='/' class='card__button'>
+    <div className='card'>
+      <figure className='card__thumb'>
+        <img src={props.src} alt={props.alt} className='card__image' />
+        <figcaption className='card__caption'>
+          <h2 className='card__title'>{props.title}</h2>
+          <p className='card__snippet'>{props.description}</p>
+          {/* <a href='/' className='card__button'>
             Read more
           </a> */}
         </figcaption>
