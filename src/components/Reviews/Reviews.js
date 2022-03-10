@@ -21,15 +21,18 @@ function Reviews() {
         </div>
         <div className='review'>
           <ReviewCard
+            cardnumber='card--2'
             quote='Amazing work! Found MASSS tailor online and went off the reviews provided and they did not fail! Staff were lovely and very friendly and helpful. Managed to get my engagement suit altered flawlessly for a perfect fit! Has earned themselves a life long customer moving forward for anything tailor related !!'
             name='Saeed Issa'
             star={<FontAwesomeIcon icon='fa-solid fa-star' />}
           />
           <ReviewCard
+            cardnumber='card--1'
             quote='Amazing tailor, Im so happy with my new outfit - he was very professional, clearly knew what he was doing, and even went beyond the alterations I requested to ensure the dress fit me perfectly. I really love the new dress and will definitely return here for future tailoring.'
             name='Divya Sukumar'
           />
           <ReviewCard
+            cardnumber='card-0'
             quote="Maraj is the best tailor in the town. I'm regularly in need  for alterations and made to measure, I have been to many tailors in Southall but this one was by far the best quality work.  I got a lengha and blouse made, it was perfect fit and on time. I highly recommend!!! Very very happy with his service. Thanks a lot Masss tailor. Definitely check him out if you haven't already. You won't regret it."
             name='San'
           />

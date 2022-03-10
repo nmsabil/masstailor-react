@@ -9,6 +9,9 @@
     color: #333;
     text-align: left;
     box-shadow: none !important;
+    @media only screen and (max-width: 600px) {
+      width: auto;
+    }
   }
   figure.snip1192 * {
     -webkit-box-sizing: border-box;
