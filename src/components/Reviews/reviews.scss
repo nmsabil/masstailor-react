@@ -71,7 +71,7 @@
       top: -82px;
     }
     @media only screen and (max-width: 1200px) {
-      top: -99px;
+      top: -121px;
     }
     @media only screen and (max-width: 992px) {
       top: -42px;
@@ -88,7 +88,7 @@
   }
   .card-3 {
     position: relative;
-    top: -22px;
+    top: -6px;
     @media only screen and (max-width: 1400px) {
       top: -19px;
     }
@@ -96,22 +96,21 @@
       top: -18px;
     }
     @media only screen and (max-width: 992px) {
-      top: -143px;
+      top: -162px;
     }
     @media only screen and (max-width: 768px) {
       top: -226px;
     }
-
     @media only screen and (max-width: 600px) {
       top: 0px;
     }
   }
   .card-4 {
+    position: relative;
+    top: -51px;
     @media only screen and (max-width: 1200px) {
       top: -61px;
     }
-    position: relative;
-    top: -67px;
     @media only screen and (max-width: 1400px) {
       top: -81px;
     }
@@ -124,27 +123,25 @@
     @media only screen and (max-width: 768px) {
       top: -61px;
     }
-
     @media only screen and (max-width: 600px) {
       top: 0px;
     }
   }
   .card-5 {
     position: relative;
-    top: -124px;
+    top: -109px;
     @media only screen and (max-width: 1400px) {
-      top: -142px;
+      top: -161px;
     }
     @media only screen and (max-width: 1200px) {
-      top: -177px;
+      top: -241px;
     }
     @media only screen and (max-width: 992px) {
-      top: -164px;
+      top: -182px;
     }
     @media only screen and (max-width: 768px) {
       top: -248px;
     }
-
     @media only screen and (max-width: 600px) {
       top: 0px;
       width: 100%;
@@ -152,22 +149,29 @@
   }
   .card-6 {
     position: relative;
-    top: -83px;
+    top: -54px;
     @media only screen and (max-width: 1400px) {
       top: -100px;
     }
     @media only screen and (max-width: 1200px) {
-      top: -98px;
+      top: -138px;
     }
     @media only screen and (max-width: 992px) {
+      right: -110%;
+      top: -223px;
+    }
+    @media only screen and (max-width: 991px) {
       right: -115%;
-      top: -206px;
+      top: -223px;
     }
     @media only screen and (max-width: 769px) {
       right: -115%;
-      top: -308px;
+      top: -220px;
     }
-
+    @media only screen and (max-width: 767px) {
+      right: -121%;
+      top: -288px;
+    }
     @media only screen and (max-width: 600px) {
       top: 0px;
       right: 0;
