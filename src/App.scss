@@ -79,6 +79,9 @@ img {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 11px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #b8b897;
     span {
       color: #fff;
     }
@@ -102,3 +105,4 @@ img {
 @import "./components/card/card";
 @import "./components/reviews/reviews";
 @import "./components/reviewCard/reviewCard";
+@import "./components/about/about";
