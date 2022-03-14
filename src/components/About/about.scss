@@ -1,3 +1,11 @@
 .about {
   background-color: black;
+  .about-content {
+    .image {
+      width: 50%;
+    }
+    .content {
+      width: 50%;
+    }
+  }
 }

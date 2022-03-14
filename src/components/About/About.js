@@ -16,7 +16,10 @@ function About() {
             What Our <span>customers say</span>
           </h3>
         </div>
-        <div className='review'></div>
+        <div className='about-content'>
+          <div className='image'>b</div>
+          <div className='content'>a</div>
+        </div>
       </div>
     </div>
   );
