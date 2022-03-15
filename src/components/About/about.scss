@@ -1,11 +1,37 @@
 .about {
   background-color: black;
   .about-content {
+    display: flex;
+    @media only screen and (max-width: 992px) {
+      flex-direction: column;
+    }
     .image {
       width: 50%;
+      object-fit: cover;
+      @media only screen and (max-width: 992px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
     }
     .content {
       width: 50%;
+      color: white;
+      padding: 20px 5vw;
+      line-height: 25px;
+      background-color: #141414;
+      font-family: "Raleway", Arial, sans-serif;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      @media only screen and (max-width: 992px) {
+        width: auto;
+      }
+      span {
+        display: block;
+        margin-top: 10px;
+        color: #b8b897;
+      }
     }
   }
 }
