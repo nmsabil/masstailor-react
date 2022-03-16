@@ -1,5 +1,8 @@
 import React from "react";
 import img from "../../images/hero/IMG_8572.jpg";
+import IconDescription from "../iconDescription/IconDescription";
+
+import { faScissors, faAward, faStar } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
@@ -26,10 +29,27 @@ function About() {
             done—for a living. What remains with him, foremost, from those
             earliest, foreign moments was his father’s demeanor: gracious,
             patient, focused.
-            <span>
+            <span className='span'>
               Mr Maraj is Asian womenswear specialist located in Southall,
               London
             </span>
+          </div>
+          <div className='icons'>
+            <IconDescription
+              icon={faScissors}
+              textColor='40 Years'
+              text=' Expirience'
+            />
+            <IconDescription
+              icon={faAward}
+              textColor='Indian dress '
+              text='specialist'
+            />
+            <IconDescription
+              icon={faStar}
+              textColor='Best Quality'
+              text='Guaranteed'
+            />
           </div>
         </div>
       </div>

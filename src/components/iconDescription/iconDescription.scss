@@ -1,0 +1,23 @@
+.iconDescription {
+  margin-top: 30px;
+  width: 33%;
+  text-align: center;
+  svg {
+    color: #b8b897;
+    background-color: rgba(15, 14, 14, 0.2);
+    height: 23px;
+    width: 23px;
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 50%;
+  }
+  h3 {
+    color: #b8b897;
+    margin-top: 5px;
+    .color {
+      margin-top: 0px;
+      color: white;
+      display: block;
+    }
+  }
+}
