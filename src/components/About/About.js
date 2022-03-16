@@ -43,7 +43,7 @@ function About() {
             <IconDescription
               icon={faAward}
               textColor='Indian dress '
-              text='specialist'
+              text='Specialist'
             />
             <IconDescription
               icon={faStar}
