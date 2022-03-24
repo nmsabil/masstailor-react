@@ -20,7 +20,9 @@ function About() {
         </h3>
       </div>
       <div className='about-content'>
-        <img src={img} className='image' />
+        <div className='image-container'>
+          <img alt='about Tailor' src={img} className='image' />
+        </div>
         <div className='content'>
           <div>
             Marajuddin grew up with a tape measure draped around his neck. His

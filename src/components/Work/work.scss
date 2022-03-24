@@ -1,0 +1,27 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+.work {
+  background-color: black;
+  padding-bottom: 50px;
+  .header {
+    padding-top: 80px;
+    h3 {
+      padding-bottom: 15px;
+    }
+  }
+}
+.gallery {
+  .image-gallery-icon {
+    display: none;
+  }
+  .image-gallery-thumbnail {
+    .image-gallery-thumbnail-image {
+      object-fit: cover;
+      height: 70px;
+    }
+    &.active,
+    &:focus,
+    &:hover {
+      border-color: #b8b897;
+    }
+  }
+}
