@@ -6,7 +6,7 @@
   @media only screen and (max-width: 992px) {
     grid-template-columns: 1fr 1fr;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 769px) {
     grid-template-columns: 1fr;
     grid-gap: 30px;
   }
@@ -16,23 +16,23 @@
   text-align: center;
   background-color: black;
   color: #b8b897;
+  @media only screen and (max-width: 2500px) {
+    height: 1292px;
+  }
   @media only screen and (max-width: 1400px) {
-    height: 1000px;
+    height: 1367px;
   }
   @media only screen and (max-width: 1200px) {
-    height: 1170px;
+    height: 1639px;
   }
   @media only screen and (max-width: 992px) {
-    height: 1400px;
+    height: 1573px;
   }
-  @media only screen and (max-width: 767px) {
-    height: 1813px;
+  @media only screen and (max-width: 991px) {
+    height: 100%;
   }
-  @media only screen and (max-width: 600px) {
-    height: 2052px;
-  }
-  @media only screen and (max-width: 575px) {
-    height: 2290px;
+  @media only screen and (max-width: 769px) {
+    padding-bottom: 62px;
   }
   @media only screen and (max-width: 575px) {
     height: 100%;
@@ -49,7 +49,6 @@
 
   .card--2 {
     position: relative;
-
     @media only screen and (max-width: 992px) {
       top: 0;
     }
@@ -86,6 +85,10 @@
     @media only screen and (max-width: 600px) {
       top: 0px;
     }
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
+    }
   }
   .card-2 {
     position: relative;
@@ -99,14 +102,9 @@
     @media only screen and (max-width: 992px) {
       top: -42px;
     }
-    @media only screen and (max-width: 768px) {
-      top: -41px;
-    }
-    @media only screen and (max-width: 600px) {
-      top: -41px;
-    }
-    @media only screen and (max-width: 600px) {
-      top: 0px;
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
     }
   }
   .card-3 {
@@ -121,11 +119,9 @@
     @media only screen and (max-width: 992px) {
       top: -162px;
     }
-    @media only screen and (max-width: 768px) {
-      top: -226px;
-    }
-    @media only screen and (max-width: 600px) {
-      top: 0px;
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
     }
   }
   .card-4 {
@@ -143,11 +139,9 @@
     @media only screen and (max-width: 992px) {
       top: -62px;
     }
-    @media only screen and (max-width: 768px) {
-      top: -61px;
-    }
-    @media only screen and (max-width: 600px) {
-      top: 0px;
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
     }
   }
   .card-5 {
@@ -162,12 +156,9 @@
     @media only screen and (max-width: 992px) {
       top: -182px;
     }
-    @media only screen and (max-width: 768px) {
-      top: -248px;
-    }
-    @media only screen and (max-width: 600px) {
-      top: 0px;
-      width: 100%;
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
     }
   }
   .card-6 {
@@ -188,15 +179,73 @@
       top: -223px;
     }
     @media only screen and (max-width: 769px) {
-      right: -115%;
-      top: -220px;
+      top: 0;
+      right: 0;
     }
-    @media only screen and (max-width: 767px) {
-      right: -121%;
-      top: -288px;
+  }
+  .card-7 {
+    position: relative;
+    top: -54px;
+    @media only screen and (max-width: 1400px) {
+      top: -100px;
     }
-    @media only screen and (max-width: 600px) {
-      top: 0px;
+    @media only screen and (max-width: 1200px) {
+      top: -112px;
+    }
+    @media only screen and (max-width: 992px) {
+      right: 111%;
+      top: -77px;
+    }
+    @media only screen and (max-width: 991px) {
+      right: 114%;
+      top: -77px;
+    }
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
+    }
+  }
+  .card-8 {
+    position: relative;
+    top: -134px;
+    @media only screen and (max-width: 1400px) {
+      top: -197px;
+    }
+    @media only screen and (max-width: 1200px) {
+      top: -277px;
+    }
+    @media only screen and (max-width: 992px) {
+      right: -110%;
+      top: -284px;
+    }
+    @media only screen and (max-width: 991px) {
+      right: 0;
+      top: -88px;
+    }
+    @media only screen and (max-width: 769px) {
+      top: 0;
+      right: 0;
+    }
+  }
+  .card-9 {
+    position: relative;
+    top: -79px;
+    @media only screen and (max-width: 1400px) {
+      top: -119px;
+    }
+    @media only screen and (max-width: 1200px) {
+      top: -174px;
+    }
+    @media only screen and (max-width: 992px) {
+      right: 111%;
+      top: -93px;
+    }
+    @media only screen and (max-width: 991px) {
+      right: 0%;
+      top: -322px;
+    }
+    @media only screen and (max-width: 769px) {
+      top: 0;
       right: 0;
     }
   }

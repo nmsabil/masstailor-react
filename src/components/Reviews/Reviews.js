@@ -66,6 +66,21 @@ function Reviews() {
             quote='Very polite gent! Great service. I recommend him to my friends and family'
             name='Bao Dang'
           />
+          <ReviewCard
+            cardnumber='card-7'
+            quote='Was in the area looking for a tailor and found this spot...just needed to get measured...very friendly and professional...he offered advice and guidance on what was being proposed...much appreciated...paaji, salute!!'
+            name='SilvaBack'
+          />
+          <ReviewCard
+            cardnumber='card-8'
+            quote='Visited Masss Tailor after being let down by previous tailors in Southall. Was welcomed as soon as I came in. Very friendly and polite.  Had 2 shirts that needed slimming up and trousers that needed tightening. Was told how it would be done and given a quick date for pickup. Picked up my clothes and was amazed to see how well they were done. Clothes fitted very well. Overall very happy with the service. Highly recommend to anyone looking for a good tailor. Will surely be coming back for more alterations. Thank you very much.'
+            name='Mohammad Sabil'
+          />
+          <ReviewCard
+            cardnumber='card-9'
+            quote='Absolutely first rate service. Alteration beautifully done on the same day.'
+            name='Rosalie Wilkinson'
+          />
         </div>
       </div>
     </div>
