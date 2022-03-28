@@ -11,7 +11,11 @@
 }
 .gallery {
   .image-gallery-icon {
-    display: none;
+    color: #b8b897;
+    opacity: 0.6;
+  }
+  .image-gallery-svg {
+    width: 40px;
   }
   .image-gallery-thumbnail {
     .image-gallery-thumbnail-image {
