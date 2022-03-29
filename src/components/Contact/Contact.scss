@@ -1,3 +1,59 @@
 .contact {
+  .header {
+    margin-bottom: 50px;
+  }
   background-color: black;
+  color: white;
+  .address-form {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    .half-width {
+      width: 100%;
+      .address {
+        text-align: right;
+        .phone {
+          margin-bottom: 11px;
+          a {
+            color: #b8b897;
+            text-decoration: none;
+          }
+        }
+        .company-address {
+          margin-bottom: 11px;
+          a {
+            color: #b8b897;
+            text-decoration: none;
+          }
+        }
+        .email {
+          margin-bottom: 11px;
+          a {
+            color: #b8b897;
+            text-decoration: none;
+          }
+        }
+        .social {
+          display: flex;
+          justify-content: end;
+          flex-direction: row;
+          a {
+            color: white;
+            text-decoration: none;
+            svg {
+              margin-left: 10px;
+              font-size: 24px;
+            }
+          }
+        }
+      }
+      .form {
+      }
+    }
+  }
 }
