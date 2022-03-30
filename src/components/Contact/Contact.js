@@ -56,7 +56,7 @@ function Contact() {
           </div>
         </div>
         <div className='half-width'>
-          <div className='form'>
+          <div className='form-container'>
             <ContactForm />
           </div>
         </div>
