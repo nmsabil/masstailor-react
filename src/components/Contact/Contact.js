@@ -6,6 +6,7 @@ import {
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import GoogleMaps from "../GoogleMaps/GoogleMaps";
 
 function Contact() {
   return (
@@ -60,6 +61,9 @@ function Contact() {
             <ContactForm />
           </div>
         </div>
+      </div>
+      <div className='google-maps container'>
+        <GoogleMaps />
       </div>
     </div>
   );

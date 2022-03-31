@@ -1,6 +1,7 @@
 import React from "react";
 import ImageGallery from "react-image-gallery";
-import img0 from "../../images/hero/IMG_8626.jpg";
+import img from "../../images/gallery/35.jpeg";
+import img0 from "../../images/hero/IMG_8672.jpg";
 import img1 from "../../images/gallery/1.jpg";
 import img2 from "../../images/gallery/2.jpg";
 import img3 from "../../images/gallery/3.jpg";
@@ -41,6 +42,10 @@ function Work() {
     {
       original: img0,
       thumbnail: img0,
+    },
+    {
+      original: img,
+      thumbnail: img,
     },
     {
       original: img1,
