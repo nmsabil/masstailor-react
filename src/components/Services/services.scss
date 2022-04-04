@@ -2,8 +2,10 @@
   padding-top: 75px;
   padding-bottom: 75px;
   text-align: center;
-  background-color: black;
+  background: url(../../images/bg/7971.jpg);
   color: #b8b897;
+  background-size: cover;
+
   @media only screen and (max-width: 450px) {
     padding-top: 40px;
   }
