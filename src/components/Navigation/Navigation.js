@@ -40,7 +40,7 @@ function Navigation() {
           </div>
           <div className='desktop_cta'>
             <div>
-              <a href='/'>
+              <a href='tel:07424605611'>
                 <FontAwesomeIcon icon={faPhoneFlip} />
                 <span>07424605611</span>
               </a>

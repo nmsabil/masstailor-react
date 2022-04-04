@@ -30,14 +30,16 @@ function GoogleMaps() {
   }, []);
 
   return isLoaded ? (
-    <GoogleMap
-      id='marker-example'
-      mapContainerStyle={containerStyle}
-      zoom={16}
-      center={center}
-    >
-      <Marker position={center} />
-    </GoogleMap>
+    <>
+      <GoogleMap
+        id='marker-example'
+        mapContainerStyle={containerStyle}
+        zoom={16}
+        center={center}
+      >
+        <Marker position={center} />
+      </GoogleMap>
+    </>
   ) : (
     <></>
   );

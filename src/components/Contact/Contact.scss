@@ -14,6 +14,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
     .half-width {
       width: 100%;
       .address {
@@ -60,6 +63,9 @@
             grid-template-columns: 1fr 1fr;
             grid-gap: 10px;
             margin-bottom: 10px;
+            @media only screen and (max-width: 415px) {
+              grid-template-columns: 1fr;
+            }
             input {
               font-family: "Raleway", Arial, sans-serif;
               color: white;
@@ -126,5 +132,10 @@
   }
   .google-maps {
     margin-top: 80px;
+    @media only screen and (max-width: 485px) {
+      grid-template-columns: 1fr;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
   }
 }

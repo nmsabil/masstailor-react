@@ -1,0 +1,69 @@
+.footer {
+  padding: 20px 0px;
+  background-color: #141414;
+  color: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .logo {
+    .desktop_logo {
+      @media only screen and (max-width: 768px) {
+        margin-bottom: 10px;
+      }
+
+      a {
+        font-size: 20px;
+        letter-spacing: 0.9px;
+        font-weight: 800;
+        color: #abab8d;
+        text-decoration: none;
+        @media only screen and (max-width: 778px) {
+          font-size: 15px;
+        }
+        span {
+          color: #fff;
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+  .copyright {
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 13px;
+    }
+    p {
+      text-decoration: none;
+      color: #abab8d;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+  }
+  .icons {
+    .social {
+      display: flex;
+      justify-content: end;
+      flex-direction: row;
+      .phone {
+        svg {
+          font-size: 20px;
+        }
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        svg {
+          margin-left: 10px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
