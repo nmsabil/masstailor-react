@@ -3,9 +3,9 @@
   .header {
     margin-bottom: 50px;
   }
-  background-color: black;
   color: white;
   .address-form {
+    position: relative;
     font-family: "Raleway", Helvetica, sans-serif;
     font-size: 15px;
     line-height: 22px;
@@ -24,8 +24,41 @@
         .phone {
           margin-bottom: 11px;
           a {
+            margin-left: 10px;
             color: #b8b897;
             text-decoration: none;
+            &:before {
+              width: 20px;
+              text-align: right;
+              margin-right: 5px;
+              margin-left: -25px;
+              content: "[";
+              transform: translateX(20px);
+              display: inline-block;
+              opacity: 0;
+              transition: transform 0.3s, opacity 0.2s;
+            }
+            &:after {
+              width: 20px;
+              text-align: left;
+              margin-left: 5px;
+              margin-right: -25px;
+              content: "]";
+              transform: translateX(-20px);
+              display: inline-block;
+              opacity: 0;
+              transition: transform 0.3s, opacity 0.2s;
+            }
+            &:hover {
+              &:before {
+                opacity: 1;
+                transform: translateX(0px);
+              }
+              &:after {
+                opacity: 1;
+                transform: translateX(0px);
+              }
+            }
           }
         }
         .company-address {
@@ -49,6 +82,9 @@
           a {
             color: white;
             text-decoration: none;
+            &:hover {
+              color: #b8b897;
+            }
             svg {
               margin-left: 10px;
               font-size: 24px;
@@ -100,6 +136,7 @@
           .btn-container {
             display: flex;
             justify-content: end;
+
             .submit {
               line-height: 22px;
               text-align: center;
@@ -121,8 +158,25 @@
               transition-duration: 0.3s;
               transition-timing-function: ease;
               transition-delay: 0s;
+              position: relative;
+
+              &:before {
+                transform: translateX(-50%) translateY(-50%);
+                transition: all 0.3s;
+                width: 100%;
+                height: 0;
+                top: 50%;
+                left: 50%;
+                opacity: 0;
+                content: "";
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.13);
+              }
               &:hover {
-                color: white;
+                &:before {
+                  height: 100%;
+                  opacity: 1;
+                }
               }
             }
           }
