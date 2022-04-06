@@ -135,7 +135,16 @@
           }
           .btn-container {
             display: flex;
-            justify-content: end;
+            justify-content: space-between;
+            margin-top: 15px;
+            p {
+              font-size: 13px;
+              padding: 10px 0px;
+              padding-right: 10px;
+              span {
+                color: #b8b897;
+              }
+            }
 
             .submit {
               line-height: 22px;
@@ -150,7 +159,7 @@
               padding: 10px;
               height: 44px;
               font-weight: 500;
-              margin-top: 10px;
+
               cursor: pointer;
               font-size: 13px;
               transition: all 0.3s;
