@@ -10,10 +10,6 @@ function Navigation() {
     e.preventDefault();
     setActive(!isActive);
   };
-  function handleClick(e) {
-    e.preventDefault();
-    setonClickStyle("false");
-  }
 
   return (
     <div className='navbar'>
@@ -70,34 +66,31 @@ function Navigation() {
           </a>
         </div>
       </div>
-      <div
-        style={{ right: onClickStyle ? "-100%" : "0%" }}
-        className={"navbar mobile " + (isActive ? "" : "show")}
-      >
+      <div className={"navbar mobile " + (isActive ? "" : "show")}>
         <nav>
           <ul>
             <li>
-              <AnchorLink onClick={handleClick} offset='40' href='#services'>
+              <AnchorLink onClick={handleToggle} offset='40' href='#services'>
                 Services
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink onClick={handleClick} offset='120' href='#about'>
+              <AnchorLink onClick={handleToggle} offset='120' href='#about'>
                 About
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink onClick={handleClick} offset='40' href='#work'>
+              <AnchorLink onClick={handleToggle} offset='40' href='#work'>
                 Work
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink onClick={handleClick} offset='40' href='#reviews'>
+              <AnchorLink onClick={handleToggle} offset='40' href='#reviews'>
                 Testimonial
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink onClick={handleClick} offset='70' href='#contact'>
+              <AnchorLink onClick={handleToggle} offset='70' href='#contact'>
                 Contact
               </AnchorLink>
             </li>
