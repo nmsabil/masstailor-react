@@ -186,7 +186,7 @@ function Work() {
   ];
 
   return (
-    <div className='work'>
+    <div className='work' id='work'>
       <div className='header'>
         <div className='patterns'>
           <svg width='100%' height='100%'>
@@ -202,6 +202,7 @@ function Work() {
       <div className='gallery'>
         <ImageGallery items={images} thumbnailPosition='top' />;
       </div>
+      <div id='contact'></div>
     </div>
   );
 }

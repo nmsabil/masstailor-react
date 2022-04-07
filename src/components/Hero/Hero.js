@@ -21,7 +21,7 @@ function Hero() {
     prevArrow: <FontAwesomeIcon icon={faChevronLeft} />,
   };
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='home'>
       <Slider {...settings}>
         <div className='slide'>
           <div className='content'>
@@ -60,7 +60,7 @@ function Hero() {
               -FIT<span> GUARANTEE</span>-
             </h1>
           </div>
-          <img src={img4} alt='' />
+          <img className='mobile-position-fix' src={img4} alt='' />
         </div>
       </Slider>
     </div>

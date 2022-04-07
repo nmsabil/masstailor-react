@@ -6,7 +6,7 @@ import { faScissors, faAward, faStar } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='header'>
         <div className='patterns'>
           <svg width='100%' height='100%'>

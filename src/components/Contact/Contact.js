@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import ContactForm from "./ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -10,7 +11,7 @@ import GoogleMaps from "../GoogleMaps/GoogleMaps";
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
       <div className='header'>
         <div className='patterns'>
           <svg width='100%' height='100%'>

@@ -19,7 +19,7 @@ function Reviews() {
             What Our <span>customers say</span>
           </h3>
         </div>
-        <div className='review'>
+        <div className='review' id='reviews'>
           <ReviewCard
             cardnumber='card--2'
             quote='Amazing work! Found MASSS tailor online and went off the reviews provided and they did not fail! Staff were lovely and very friendly and helpful. Managed to get my engagement suit altered flawlessly for a perfect fit! Has earned themselves a life long customer moving forward for anything tailor related !!'

@@ -1,8 +1,14 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 .work {
   padding-bottom: 50px;
+  @media only screen and (max-width: 450px) {
+    padding-bottom: 21px;
+  }
   .header {
     padding-top: 80px;
+    @media only screen and (max-width: 450px) {
+      padding-top: 47px;
+    }
     h3 {
       padding-bottom: 15px;
     }

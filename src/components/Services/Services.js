@@ -9,7 +9,7 @@ import img6 from "../../images/services/2.jpg";
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
       <div className='container'>
         <div className='header'>
           <div className='patterns'>
@@ -66,6 +66,7 @@ function Services() {
           />
         </div>
       </div>
+      <div id='reviews'></div>
     </div>
   );
 }

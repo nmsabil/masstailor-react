@@ -1,14 +1,19 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
-
+import AnchorLink from "react-anchor-link-smooth-scroll";
 function Navigation() {
   const [isActive, setActive] = useState("false");
+  const [onClickStyle, setonClickStyle] = useState("true");
 
   const handleToggle = (e) => {
     e.preventDefault();
     setActive(!isActive);
   };
+  function handleClick(e) {
+    e.preventDefault();
+    setonClickStyle("false");
+  }
 
   return (
     <div className='navbar'>
@@ -22,19 +27,29 @@ function Navigation() {
           <div className='desktop_links'>
             <ul>
               <li>
-                <a href='/'>Home</a>
+                <AnchorLink offset='50' href='#services'>
+                  Services
+                </AnchorLink>
               </li>
               <li>
-                <a href='/'>Services</a>
+                <AnchorLink offset='130' href='#about'>
+                  About
+                </AnchorLink>
               </li>
               <li>
-                <a href='/'>About</a>
+                <AnchorLink offset='50' href='#work'>
+                  Work
+                </AnchorLink>
               </li>
               <li>
-                <a href='/'>Work</a>
+                <AnchorLink offset='50' href='#reviews'>
+                  Testimonial
+                </AnchorLink>
               </li>
               <li>
-                <a href='/'>Contact</a>
+                <AnchorLink offset='80' href='#contact'>
+                  Contact
+                </AnchorLink>
               </li>
             </ul>
           </div>
@@ -55,23 +70,36 @@ function Navigation() {
           </a>
         </div>
       </div>
-      <div className={"navbar mobile " + (isActive ? "" : "show")}>
+      <div
+        style={{ right: onClickStyle ? "-100%" : "0%" }}
+        className={"navbar mobile " + (isActive ? "" : "show")}
+      >
         <nav>
           <ul>
             <li>
-              <a href='/'>Home</a>
+              <AnchorLink onClick={handleClick} offset='40' href='#services'>
+                Services
+              </AnchorLink>
             </li>
             <li>
-              <a href='/'>Services</a>
+              <AnchorLink onClick={handleClick} offset='120' href='#about'>
+                About
+              </AnchorLink>
             </li>
             <li>
-              <a href='/'>About</a>
+              <AnchorLink onClick={handleClick} offset='40' href='#work'>
+                Work
+              </AnchorLink>
             </li>
             <li>
-              <a href='/'>Work</a>
+              <AnchorLink onClick={handleClick} offset='40' href='#reviews'>
+                Testimonial
+              </AnchorLink>
             </li>
             <li>
-              <a href='/'>Contact</a>
+              <AnchorLink onClick={handleClick} offset='70' href='#contact'>
+                Contact
+              </AnchorLink>
             </li>
           </ul>
         </nav>
