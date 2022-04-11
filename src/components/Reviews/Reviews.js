@@ -1,7 +1,5 @@
 import React from "react";
 import ReviewCard from "../reviewCard/ReviewCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Reviews() {
   return (
@@ -24,7 +22,6 @@ function Reviews() {
             cardnumber='card--2'
             quote='Amazing work! Found MASSS tailor online and went off the reviews provided and they did not fail! Staff were lovely and very friendly and helpful. Managed to get my engagement suit altered flawlessly for a perfect fit! Has earned themselves a life long customer moving forward for anything tailor related !!'
             name='Saeed Issa'
-            star={<FontAwesomeIcon icon='fa-solid fa-star' />}
           />
           <ReviewCard
             cardnumber='card--1'
