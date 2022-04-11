@@ -75,7 +75,7 @@ function Navigation() {
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink onClick={handleToggle} offset='120' href='#about'>
+              <AnchorLink onClick={handleToggle} offset='90' href='#about'>
                 About
               </AnchorLink>
             </li>

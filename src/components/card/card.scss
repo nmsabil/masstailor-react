@@ -133,6 +133,9 @@ $desktop: 1024px;
     transition: 0.5s ease-in-out;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
+    @media only screen and (max-width: 1124px) {
+      font-weight: 200;
+    }
 
     @include breakpoint(desktop) {
       margin: 20px 0;
