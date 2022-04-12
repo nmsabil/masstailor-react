@@ -94,6 +94,15 @@ function Navigation() {
                   Contact
                 </a>
               </li>
+
+              <div className='mobile-cta'>
+                <div>
+                  <a href='tel:07424605611'>
+                    <FontAwesomeIcon icon={faPhoneFlip} />
+                    <span>07424605611</span>
+                  </a>
+                </div>
+              </div>
             </ul>
           </nav>
         </div>
