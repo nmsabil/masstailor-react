@@ -3,7 +3,7 @@ import ReviewCard from "../reviewCard/ReviewCard";
 
 function Reviews() {
   return (
-    <div className='reviews'>
+    <div className='reviews' id='reviews'>
       <div className='container'>
         <div className='header'>
           <div className='patterns'>
@@ -17,7 +17,7 @@ function Reviews() {
             What Our <span>customers say</span>
           </h3>
         </div>
-        <div className='review' id='reviews'>
+        <div className='review'>
           <ReviewCard
             cardnumber='card--2'
             quote='Amazing work! Found MASSS tailor online and went off the reviews provided and they did not fail! Staff were lovely and very friendly and helpful. Managed to get my engagement suit altered flawlessly for a perfect fit! Has earned themselves a life long customer moving forward for anything tailor related !!'

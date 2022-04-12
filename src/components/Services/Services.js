@@ -66,7 +66,6 @@ function Services() {
           />
         </div>
       </div>
-      <div id='reviews'></div>
     </div>
   );
 }

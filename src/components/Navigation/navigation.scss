@@ -89,6 +89,12 @@
       }
       ul {
         display: flex;
+        div {
+          display: flex;
+          @media only screen and (max-width: 778px) {
+            display: none;
+          }
+        }
         li {
           margin-left: 15px;
           margin-right: 15px;

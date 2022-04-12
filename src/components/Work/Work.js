@@ -202,7 +202,6 @@ function Work() {
       <div className='gallery'>
         <ImageGallery items={images} thumbnailPosition='top' />;
       </div>
-      <div id='contact'></div>
     </div>
   );
 }
