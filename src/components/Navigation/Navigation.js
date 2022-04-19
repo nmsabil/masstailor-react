@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 import ScrollspyNav from "react-scrollspy-nav";
-import ScrollspyNav1 from "react-scrollspy-nav";
 
 function Navigation() {
   const [isActive, setActive] = useState("false");
