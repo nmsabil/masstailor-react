@@ -114,14 +114,14 @@ body {
 
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
-@import "./components/Navigation/navigation";
-@import "./components/Hero/hero";
-@import "./components/Services/services";
-@import "./components/card/card";
-@import "./components/Reviews/reviews";
-@import "./components/reviewCard/reviewCard";
-@import "./components/About/about";
-@import "./components/iconDescription/iconDescription";
-@import "./components/Work/work";
-@import "./components/Contact/contact";
-@import "./components/Footer/footer";
+@import "./components/Navigation/navigation.scss";
+@import "./components/Hero/hero.scss";
+@import "./components/Services/services.scss";
+@import "./components/card/card.scss";
+@import "./components/Reviews/reviews.scss";
+@import "./components/reviewCard/reviewCard.scss";
+@import "./components/About/about.scss";
+@import "./components/iconDescription/iconDescription.scss";
+@import "./components/Work/work.scss";
+@import "./components/Contact/contact.scss";
+@import "./components/Footer/footer.scss";
