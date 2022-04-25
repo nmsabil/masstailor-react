@@ -35,7 +35,7 @@ function Contact() {
               <a href='https://www.google.com/maps/place/MASSS+Tailor/@51.4998756,-0.3856994,17z/data=!3m1!4b1!4m5!3m4!1s0x487672b143b1add7:0x289fa0e9b80719b4!8m2!3d51.4998625!4d-0.3833921'>
                 68 King St (Unit 7) Sidhu Market,
               </a>
-              <br /> Southall UB5 4DD
+              <br /> Southall UB2 4DD
             </div>
 
             <div className='social'>

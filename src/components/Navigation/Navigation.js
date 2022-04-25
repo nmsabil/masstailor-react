@@ -11,6 +11,10 @@ function Navigation() {
     setActive(!isActive);
   };
 
+  const handleCall = (e) => {
+    window.open("tel:07424605611", "_self");
+  };
+
   return (
     <ScrollspyNav
       scrollTargetIds={["services", "reviews", "about", "work", "contact"]}
@@ -48,7 +52,7 @@ function Navigation() {
             </div>
             <div className='desktop_cta'>
               <div>
-                <a href='tel:07424605611'>
+                <a onClick={handleCall}>
                   <FontAwesomeIcon icon={faPhoneFlip} />
                   <span>07424605611</span>
                 </a>
@@ -96,7 +100,7 @@ function Navigation() {
 
               <div className='mobile-cta'>
                 <div>
-                  <a href='tel:07424605611'>
+                  <a onClick={handleCall}>
                     <FontAwesomeIcon icon={faPhoneFlip} />
                     <span>07424605611</span>
                   </a>
